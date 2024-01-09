@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;700&family=Open+Sans:wght@400;700&display=swap');
+body{
+    margin: 0;
+    
+    
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+#page{
+   
+width: 1000px;
+margin: 65px auto 0;
+}
+.text p{
+    font-family: 'Open Sans', sans-serif;
+    color: #7D7987;
+    font-size: 13px;
+    line-height: 28px;
+    margin-bottom: 40px;
+    margin-bottom: 40px;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 58px;
+}
+ul {
+    list-style: none;
+    display: flex;
+    gap: 48px;
+    margin: 0;
+    padding: 0;
+    font-family: 'Mulish', sans-serif;
+}
+ul li a{
+    opacity: 0.5;
+}
+ul li a:hover{
+    font-weight: bold;
+    opacity: 1;
+}
+h1{
+    font-family: 'Mulish', sans-serif;
+    font-size: 49px;
+    width: 490px;
+    
+}
+h1 span{
+    color: #89C5CC;
+}
+button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    padding: 14px 32px 15px;
+    font-family: 'Open Sans', sans-serif;
+    text-transform:uppercase ;
+    color: white;
+    background-color: #69B99D;
+    padding: 1rem;
+    border-radius: 5%;
+    gap: 10px;
+    border:none;
+}
+button:hover{
+    background-color: #29755a;
+    border: 1px solid black;
+}
+footer{
+    font-family: 'Open Sans', sans-serif;
+    font: size 14px; 
+    line-height: 28px;
+   text-align: center;
+   margin-top: 82px;
+}
+footer a{
+    font-weight: bold;
+}
+main{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#balls{
+    position: absolute;
+    bottom: 70px;
+    right: 10px;
+}
